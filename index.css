@@ -1,0 +1,23 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Google Sans', sans-serif, system-ui; /* Use Google Sans as primary */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333; /* Default text color */
+  background-color: #fdfdfd; /* Default light background for the page */
+}
+body {
+  overflow: hidden; /* Prevent scrollbars on body if content fits */
+  display: flex; /* Helps with centering if needed */
+  justify-content: center;
+  align-items: center;
+}
+body.dragging {
+  cursor: grabbing !important; /* Ensure high specificity */
+}
+body.dragging * {
+  user-select: none !important;
+  pointer-events: none !important;
+}

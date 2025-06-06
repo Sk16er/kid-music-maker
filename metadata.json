@@ -1,0 +1,7 @@
+
+{
+  "name": "Kid's Music Maker",
+  "description": "Make your own fun songs with silly ideas! Perfect for kids!",
+  "requestFramePermissions": [],
+  "prompt": "Create happy, playful, and simple music for a 5-year-old child using text prompts."
+}
